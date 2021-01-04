@@ -163,13 +163,13 @@ sup {
 }
 
 a {
-  color: #00ff62;
+  color: #af4425;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color:#00ff62;
-  text-decoration: underline;
+  color:#a85e49;
+  text-decoration: none;
 }
 
 a:not([href]):not([class]) {
@@ -368,7 +368,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  color: #343a40;
+  color: #662e1c;
 }
 
 h1, .h1 {
@@ -451,6 +451,7 @@ mark,
 .list-inline {
   padding-left: 0;
   list-style: none;
+  color: #af4425 !important;
 }
 
 .list-inline-item {
@@ -458,6 +459,7 @@ mark,
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
+  
 }
 
 .initialism {
@@ -3888,7 +3890,7 @@ input[type=button].btn-block {
   text-decoration: none;
 }
 .nav-link.disabled {
-  color: #6c757d;
+  color: #005cac;
   pointer-events: none;
   cursor: default;
 }
@@ -4287,7 +4289,7 @@ input[type=button].btn-block {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+  color: #ebdcb2;
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
   color: rgba(255, 255, 255, 0.75);
@@ -4299,7 +4301,7 @@ input[type=button].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: #c9a66b;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
@@ -6079,43 +6081,43 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #00ff62 !important;
+  background-color: #af4425 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #964a2c !important;
+  background-color: #af4425 !important;
 }
 
 .bg-secondary {
-  background-color: #6c757d !important;
+  background-color:  #af4425 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
-  background-color: #545b62 !important;
+  background-color:  #af4425 !important;
 }
 
 .bg-success {
-  background-color: #28a745 !important;
+  background-color:  #af4425 !important;
 }
 
 a.bg-success:hover, a.bg-success:focus,
 button.bg-success:hover,
 button.bg-success:focus {
-  background-color: #1e7e34 !important;
+  background-color: #af4425 !important;
 }
 
 .bg-info {
-  background-color: #17a2b8 !important;
+  background-color:  #af4425 !important;
 }
 
 a.bg-info:hover, a.bg-info:focus,
 button.bg-info:hover,
 button.bg-info:focus {
-  background-color: #117a8b !important;
+  background-color:  #af4425 !important;
 }
 
 .bg-warning {
@@ -9781,7 +9783,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #00ff62 !important;
+  color: #af4425 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9985,7 +9987,7 @@ h3 {
 }
 body {
   padding-top: 3.375rem;
-  color: #6c757d;
+  color: #662e1c;
 }
 
 @media (min-width: 992px) {
@@ -10073,7 +10075,7 @@ p.lead {
   justify-content: center;
   height: 5rem;
   width: 5rem;
-  background-color: #495057;
+  background-color: #af4425;
   color: #fff;
   border-radius: 100%;
   font-size: 2rem;
@@ -10106,6 +10108,7 @@ section.resume-section .resume-section-content {
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
+    background-color: #ebdcb2;
   }
 }
 @media (min-width: 992px) {
@@ -10114,5 +10117,6 @@ section.resume-section .resume-section-content {
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    background-color: #ebdcb2;
   }
 }
