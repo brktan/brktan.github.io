@@ -66,7 +66,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #ebdcb2;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -171,7 +171,6 @@ a:hover {
   color:#a85e49;
   text-decoration: none;
 }
-
 a:not([href]):not([class]) {
   color: inherit;
   text-decoration: none;
@@ -451,7 +450,7 @@ mark,
 .list-inline {
   padding-left: 0;
   list-style: none;
-  color: #af4425 !important;
+  color: none !important;
 }
 
 .list-inline-item {
@@ -10078,7 +10077,7 @@ p.lead {
   background-color: #af4425;
   color: #fff;
   border-radius: 100%;
-  font-size: 2rem;
+  font-size: 3rem;
   margin-right: 2rem;
 }
 .social-icons .social-icon:last-child {
@@ -10087,6 +10086,7 @@ p.lead {
 .social-icons .social-icon:hover {
   background-color: #bd5d38;
 }
+
 
 .dev-icons {
   font-size: 7rem;
